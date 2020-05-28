@@ -12,6 +12,11 @@ body {
     letter-spacing: 0.04em;
 }
 
+a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 
 /* HEADER */
 header {
@@ -126,6 +131,32 @@ header .cards .terms a {
 }
 
 
+/* main */
+.customers {
+    padding: 40px 0;
+    background-color: #f3f5f9;
+    text-align: center;
+}
+
+.customers .titolo {
+    color: #888;
+    font-weight: bold;
+}
+
+.customers .img {
+    height: 150px;
+}
+
+.customers img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.customers .link {
+    margin-top: 25px;
+}
+
+
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
@@ -150,16 +181,6 @@ header .cards .terms a {
 
 /* DEBUG */
 
-/* [class*="col-"] {
-    height: 150px;
-    background-color: #ddd;
-    border: solid 2px #fff;
-} */
-
-
-section {
-    margin: 50px auto;
-}
 
 .carosello {
 
