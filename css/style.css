@@ -14,7 +14,15 @@ body {
 
 
 /* HEADER */
+header {
+    /* background-image: url("../img/jumbo.svg"); */
+    background-color: #005eff;
+}
+
 header .top_navbar {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
     background-color: #fff;
     height: 70px;
     line-height: 70px;
@@ -60,7 +68,63 @@ header .nav_menu li .btn:hover {
 header .hamburger {
     text-align: right;
     font-size: 20px;
+    color: #006aff;
 }
+
+header .container .jumbotron {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+}
+
+header .jumbotron h1 {
+    font-size: 48px;
+}
+
+header .jumbotron p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .jumbo-box {
+    padding-right: 10px;
+}
+
+header .cards {
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+header .cards h2 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#google_button {
+    position: relative;
+}
+
+header .cards .ico {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    max-height: 21px;
+}
+
+header .cards .terms {
+    margin: 15px auto;
+}
+
+header .cards .terms a {
+    text-decoration: underline;
+}
+
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
@@ -73,12 +137,18 @@ header .hamburger {
         display: none;
     }
 
+    header .jumbotron h1 {
+        font-size: 63px;
+    }
+
+    header .jumbotron p {
+        font-size: 21px;
+    }
+
+
 }
 
 /* DEBUG */
-header {
-    background-color: lightblue;
-}
 
 /* [class*="col-"] {
     height: 150px;
@@ -92,10 +162,7 @@ section {
 }
 
 .carosello {
-    margin-top: 150px;
-    height: 300px;
-    background-color: #ccc;
-    border: solid 1px #fff;
+
 }
 
 .get-started {
