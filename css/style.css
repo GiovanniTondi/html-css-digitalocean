@@ -21,6 +21,10 @@ a {
     font-size: 18px;
 }
 
+main > section {
+    padding: 40px 0;
+}
+
 
 /* HEADER */
 header {
@@ -67,6 +71,7 @@ header .nav_menu li .btn {
     margin-left: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    border-color: #006aff;
 }
 
 header .nav_menu li .btn:hover {
@@ -136,10 +141,82 @@ header .cards .terms a {
 
 
 /* main */
+/* generali */
+.bk-grey {
+    background-color: #f3f5f9;
+}
+
+.titolo-sezione {
+    text-align: center;
+}
+
+.titolo-sezione {
+    margin-bottom: 50px;
+}
+
+.titolo-sezione p {
+    font-weight: 300;
+}
+
+/* Carousel */
+.carosello {
+    margin: 60px auto 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.carosello .slider {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.carosello .slider img {
+    width: 100%;
+}
+
+.carosello span {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.carosello .slider .fas {
+    display: none;
+    font-size: 20px;
+    color: #333;
+}
+
+.carosello .slider .fa-less-than {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+}
+
+.carosello .slider .fa-greater-than {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+}
+
+.carosello .pallino {
+    display: inline-block;
+    margin: 0 2px;
+    height: 10px;
+    width: 10px;
+    border: solid 1px #005eff;
+    border-radius: 50%;
+}
+
+.carosello .pallino.active {
+    background-color: #005eff;
+}
+
+
 /* .customers */
 .customers {
-    padding: 40px 0;
-    background-color: #f3f5f9;
     text-align: center;
 }
 
@@ -163,19 +240,6 @@ header .cards .terms a {
 /* /.customers */
 
 /* .deploy */
-.deploy {
-    padding: 40px 0;
-}
-
-.deploy .box {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.deploy .box p {
-    font-weight: 300;
-}
-
 .deploy .menu-laterale {
     margin-top: 30px;
 }
@@ -209,9 +273,18 @@ header .cards .terms a {
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
+    /* generali */
+    .carosello .slider .fas {
+        display: block;
+    }
+
+
     .deploy .menu-laterale {
         margin-left: 20%;
     }
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
