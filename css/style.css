@@ -297,6 +297,71 @@ header .cards .terms a {
     color: #41ade2;
 }
 
+/* Sezione get started */
+.get-started {
+    background-color: #0808cd;
+    padding-bottom: 20px;
+}
+
+.get-started .titolo-sezione {
+    color: #fff;
+}
+
+.get-started .titolo-sezione .btn-default {
+    margin-top: 25px;
+    padding: 8px 10px;
+    color: #006aff;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 70px 0;
+    background-color: #010e28;
+}
+
+footer .copy .copy-text {
+    margin: 10px 0;
+    font-weight: 300;
+    color: #837f7f;
+}
+
+footer .copy .copy-text .social {
+    margin-top: 10px;
+}
+
+footer .copy .copy-text .social a {
+    color: #837f7f;
+}
+
+footer .copy .copy-text .social .fab {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+footer .menu-ex ul:first-child {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer .menu-ex li {
+    display: block;
+    margin-top: 5px;
+}
+
+footer .menu-ex li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a7373;
+}
+
+footer .copy .copy-text .social a:hover,
+footer .menu-ex li a:hover {
+    color: #eee;
+    text-decoration: none;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -333,26 +398,7 @@ header .cards .terms a {
         font-size: 21px;
     }
 
-
     .deploy .menu-laterale {
         margin-left: 30%;
     }
-
-
-}
-
-/* DEBUG */
-
-
-.carosello {
-
-}
-
-.get-started {
-    height: 200px;
-    background-color: blue;
-}
-
-footer {
-    background-color: darkblue;
 }
