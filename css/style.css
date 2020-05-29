@@ -158,6 +158,19 @@ header .cards .terms a {
     font-weight: 300;
 }
 
+/* CARDS */
+.cards {
+    padding: 20px 0;
+}
+
+.cards h4 {
+    font-size: 20px;
+}
+
+.cards p {
+    font-weight: 300;
+}
+
 /* Carousel */
 .carosello {
     margin: 60px auto 20px;
@@ -258,17 +271,6 @@ header .cards .terms a {
     color: #555;
 }
 
-.deploy .cards {
-    padding: 20px 0;
-}
-
-.deploy .cards h4 {
-    font-size: 20px;
-}
-
-.deploy .cards p {
-    font-weight: 300;
-}
 
 
 /* Small devices (tablets, 768px and up) */
